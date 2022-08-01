@@ -4,6 +4,8 @@ Strapi comes with a full featured [Command Line Interface](https://docs.strapi.i
 
 ## AWS Credentials
 
+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
+
 ```
 AKIAYG6VFG2RVTW2WWME
 4P5PeZjI2NU7cnopJBnUtPFLjlzQYDtpwQLiJ5v9
