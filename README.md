@@ -2,6 +2,36 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
+## 개발
+
+```sh
+npm i
+npm run develop
+```
+
+## 배포
+
+AWS ec2 콘솔에서 subcloud-strapi 인스턴스 이용
+subcloud-strapi-keypair.pem 이용
+
+```sh
+ssh ubuntu@15.164.9.73 -i ./subcloud-strapi-keypair.pem
+```
+
+git pull 후 pm2를 이용하여 배포
+
+```sh
+cd subcloud-strapi/
+git pull
+pm2 start ecosystem.config.js
+```
+
+배포 상태 확인
+```sh
+pm2 status
+pm2 logs 0
+```
+
 ## AWS Credentials
 
 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
@@ -12,14 +42,6 @@ AKIAYG6VFG2RVTW2WWME
 ```
 
 ## Commands
-
-### `develop`
-
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
-
-```
-npm run develop
-```
 
 ### `start`
 
