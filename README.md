@@ -23,6 +23,8 @@ git pull 후 pm2를 이용하여 배포
 ```sh
 cd subcloud-strapi/
 git pull
+npm i
+npm run build
 pm2 start ecosystem.config.js
 ```
 
@@ -32,9 +34,13 @@ pm2 status
 pm2 logs 0
 ```
 
-## AWS Credentials
+## Credentials
 
-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
+Github token
+
+`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`
+
+AWS token
 
 ```
 AKIAYG6VFG2RVTW2WWME
@@ -47,7 +53,7 @@ AKIAYG6VFG2RVTW2WWME
 
 Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
 
-```
+```sh
 npm run start
 ```
 
@@ -55,7 +61,7 @@ npm run start
 
 Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
 
-```
+```sh
 npm run build
 ```
 
