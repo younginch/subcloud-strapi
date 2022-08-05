@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_sub_clouds",
+  "info": {
+    "singularName": "about-sub-cloud",
+    "pluralName": "about-sub-clouds",
+    "displayName": "About SubCloud"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Body": {
+      "type": "text"
+    }
+  }
+}
