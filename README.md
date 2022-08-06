@@ -40,6 +40,10 @@ Github token
 
 `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`
 
+```sh
+git config --global credential.helper store
+```
+
 AWS token
 
 ```
