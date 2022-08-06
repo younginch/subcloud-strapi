@@ -1,0 +1,26 @@
+name: CD
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    name: Deploy to ec2
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run scripts in server
+        uses: appleboy/ssh-action@master
+        with:
+          key: ${{ secrets.SSH_KEY }}
+          host: 15.164.84.133
+          username: ubuntu
+          script: |
+            cd subcloud-strapi
+            git reset --hard
+            git fetch
+            git pull
+            npm ci
+            npm run build
+            pm2 start ecosystem.config.js
