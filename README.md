@@ -34,6 +34,10 @@ pm2 status
 pm2 logs 0
 ```
 
+```sh
+sudo snap start amazon-ssm-agent
+```
+
 ## Credentials
 
 Github token
