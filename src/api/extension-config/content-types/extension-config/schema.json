@@ -1,21 +1,18 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "extension_configs",
   "info": {
     "singularName": "extension-config",
     "pluralName": "extension-configs",
-    "displayName": "ExtensionConfig"
+    "displayName": "Extension Config"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "PointRatio": {
-      "type": "float"
-    },
-    "QuickRequestSelector": {
-      "type": "string"
+    "body": {
+      "type": "json"
     }
   }
 }
