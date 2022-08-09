@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "language_costs",
+  "info": {
+    "singularName": "language-cost",
+    "pluralName": "language-costs",
+    "displayName": "Language Cost"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "json"
+    }
+  }
+}

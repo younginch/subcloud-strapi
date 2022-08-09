@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "supported_languages",
+  "info": {
+    "singularName": "supported-language",
+    "pluralName": "supported-languages",
+    "displayName": "Supported Language",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "json"
+    }
+  }
+}
