@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "extension_configs",
+  "collectionName": "language_costs",
   "info": {
-    "singularName": "extension-config",
-    "pluralName": "extension-configs",
-    "displayName": "Extension Config"
+    "singularName": "language-cost",
+    "pluralName": "language-costs",
+    "displayName": "Language Cost"
   },
   "options": {
     "draftAndPublish": true
