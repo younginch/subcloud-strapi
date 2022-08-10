@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "bonus_functions",
+  "info": {
+    "singularName": "bonus-function",
+    "pluralName": "bonus-functions",
+    "displayName": "Bonus Function"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "json"
+    }
+  }
+}

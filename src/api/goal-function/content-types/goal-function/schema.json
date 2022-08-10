@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "goal_functions",
+  "info": {
+    "singularName": "goal-function",
+    "pluralName": "goal-functions",
+    "displayName": "Goal Function"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "json"
+    }
+  }
+}
