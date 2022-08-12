@@ -46,7 +46,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
           REMOTE_HOST: ${{ env.AWS_EC2_IP }}
           REMOTE_USER: ubuntu
-          TARGET: /home/ubuntu/subcloud
+          TARGET: /home/ubuntu/subcloud-strapi
 
       - name: Configure SSH
         run: |
@@ -66,7 +66,7 @@ jobs:
           SSH_KEY: ${{ secrets.SSH_KEY }}
 
       - name: Restart pm2
-        run: ssh staging 'cd /home/ubuntu/subcloud && pm2 start ecosystem.config.js'
+        run: ssh staging 'cd /home/ubuntu/subcloud-strapi && pm2 start ecosystem.config.js'
 
       - name: Remove Github Actions IP from security group
         run: |
