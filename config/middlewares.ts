@@ -8,6 +8,7 @@ export default [
       headers: '*',
       origin: [
         'http://localhost:1337',
+        'http://localhost:3000',
         'https://strapi.subcloud.app',
         'https://www.youtube.com',
       ],
