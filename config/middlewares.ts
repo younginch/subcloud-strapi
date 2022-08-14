@@ -1,7 +1,18 @@
 export default [
   'strapi::errors',
   'strapi::security',
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      enabled: true,
+      headers: '*',
+      origin: [
+        'http://localhost:1337',
+        'https://strapi.subcloud.app',
+        'https://www.youtube.com',
+      ],
+    },
+  },
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
