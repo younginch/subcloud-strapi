@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "first_user_configs",
+  "info": {
+    "singularName": "first-user-config",
+    "pluralName": "first-user-configs",
+    "displayName": "First User Config"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "point": {
+      "type": "json"
+    }
+  }
+}
