@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "default_functions",
+  "info": {
+    "singularName": "default-function",
+    "pluralName": "default-functions",
+    "displayName": "Default Function"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "json"
+    }
+  }
+}
